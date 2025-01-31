@@ -1,5 +1,6 @@
 import random
 from character import Character
+from charactertype import CharacterType
 
 class Game :
     """Manages the Dice Battle Game Logic."""
@@ -20,8 +21,7 @@ class Game :
         #TODO: Implement the battle loop where players take turns attacking 
 
 
-from charactertype import CharacterType
-
+#Test implementation
 mycharactertype = CharacterType.WARRIOR
 print(mycharactertype)
 print(mycharactertype.name)
