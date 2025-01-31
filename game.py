@@ -2,7 +2,7 @@ import random
 from character import Character
 from charactertype import CharacterType
 
-class Game :
+class Game:
     """Manages the Dice Battle Game Logic."""
 
     def __init__(self, player1: Character, player2: Character):
